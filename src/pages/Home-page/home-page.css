@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 0.8rem;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.logo>h1{
+    font-weight: bolder;
+    font-size:1.5rem;
+}
+.links-wrapper{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:8rem;
+    padding-right: 3rem;
+}
+.links >p{
+   color:red;
+   padding:0.5rem;
+   background-color: rgb(247, 248, 248);
+   border-radius:5px;
+   
+}
