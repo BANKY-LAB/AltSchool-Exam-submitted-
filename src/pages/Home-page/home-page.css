@@ -3,11 +3,21 @@
     padding:0;
     box-sizing: border-box;
 }
+.main-page{
+    display:flex;
+    flex-direction: column;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #352F44 0%, #B9B4C7 46%, #FAF0E6 100%);
+
+    height: 100vh;
+    width:100%;
+
+}
 .nav-container{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aliceblue;
+    background-color:transparent;
     padding: 0.8rem;
 }
 .links{
@@ -21,15 +31,101 @@
 }
 .links-wrapper{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap:8rem;
     padding-right: 3rem;
+  
 }
-.links >p{
-   color:red;
-   padding:0.5rem;
-   background-color: rgb(247, 248, 248);
-   border-radius:5px;
-   
+
+.Repos-link{
+    color:#352F44;
+    padding:0.5rem;
+    font-weight:800;
+    background-color:transparent;
+    border-radius:5px;
+    font-size: 1.1rem;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.Repos-link:hover{
+    text-decoration: underline;
+    color:#fff;
+    transition-delay: 0.5ms;
+}
+.profile{
+    border: 1px solid #352F44;
+    padding:0.3rem 0.5rem;
+    color:#352F44;
+    border-radius: 0.3rem;
+    font-weight: 700;
+}
+.profile:hover{
+    color:#FAF0E6;
+    background-color:#352F44;
+    /* border:1px solid #FAF0E6; */
+    /* outline:none; */
+}
+
+/* landing-page */
+.Landing-page-wrapper{
+    margin-top: 13rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.into-p{
+    font-size: 4rem;
+    font-weight: 800;
+    
+}
+.into-p>span{
+    color:#FFFF;
+    transition: 0.5s;
+}
+.into-p>span:hover{
+    -webkit-text-stroke: 2px #fff;
+    color:transparent;
+}
+.into-p-2{
+    font-size: 1.3rem;
+    color: #352F44;
+    margin-top: 1.5rem;
+}
+.about{
+    display:flex;
+    gap:2rem;
+
+}
+.Solution-btn{
+    padding:14px 17px;
+    border:1px solid #fff;
+    border-radius:50px;
+    background-color: transparent;
+    margin-top:3rem;
+    font-size: 1.1rem;
+}
+.Question-btn{
+    padding:14px 17px;
+    border:1px solid #fff;
+    border-radius:50px;
+    background-color: transparent;
+    margin-top:3rem;
+    font-size: 1.1rem;
+}
+.Question-btn:hover{
+    color:#FAF0E6;
+    background-color:#352F44 ;
+    border: 1px solid #FAF0E6; 
+}
+.Solution-btn:hover{
+color:#FAF0E6;
+background-color:#352F44 ;
+border: 1px solid #FAF0E6;
 }
