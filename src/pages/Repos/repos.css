@@ -1,0 +1,55 @@
+.main-repos{
+    background-image: linear-gradient(43deg, #5C5470 0%, #5C5470 36%, #FAF0E6 100%);
+   height: 100%;
+   width:100%;
+}
+.repos-flex{
+    /* border:1px solid #FAF0E6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+}
+.main-repos-div{
+    border:2px solid #B9B4C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    flex-wrap: wrap;
+
+}
+.card{
+    border:1px solid #FAF0E6;
+    border-radius: 5px;
+    margin:1.5rem;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    width:24rem;
+    height: 18rem;
+}
+.repo-name{
+    color:#080412;
+    margin:1rem;
+
+}
+.repo-description{
+    color:#FAF0E6;
+    margin:0.3rem;
+}
+.view-btn{
+    background-color: #FAF0E6;
+    padding:0.3rem 1rem;
+    border-radius:5px;
+    border: 1px solid #FAF0E6;
+    cursor: pointer;
+}
+.view-btn:hover{
+    border: 1px solid #080412;
+
+}
