@@ -8,9 +8,9 @@ function Navbar () {
             <div className="links">
                 <Link to="/" className="Repos-link">Home</Link>
                <Link to="/Repos" className="Repos-link">Repos </Link>
-                <Link to="/Repository" className="Repos-link"> Error 4044</Link>
+                <Link to="/404" className="Repos-link"> Error 404</Link>
             </div>
-            <div className="profile">Profile</div>
+            <Link to="/Profile" className="profile">Profile</Link>
             </div>
         </div>
     )

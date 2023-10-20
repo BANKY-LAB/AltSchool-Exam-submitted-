@@ -38,13 +38,27 @@
     font-size: 1.3rem;
     padding:0.3rem 0.5rem;
     border:1px solid #9b7df6;
-    margin-left:16rem;
+    margin-left:3rem;
     text-decoration: none;
     color:#4c455f;
     border-radius: 10px;
     font-weight: 700;
 }
 .repo-back:hover{
+    background-color: #4c455f;
+    color:#FAF0E6;
+}
+.repo-back-2{
+    font-size: 1.3rem;
+    padding:0.3rem 0.5rem;
+    border:1px solid #9b7df6;
+    margin-left:3rem;
+    text-decoration: none;
+    color:#4c455f;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.repo-back-2:hover{
     background-color: #4c455f;
     color:#FAF0E6;
 }
