@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar";
+import "./repo.css"
 
 function RepoDetailsPage() {
   const { name } = useParams();
@@ -15,11 +16,12 @@ function RepoDetailsPage() {
   }, [name]);
 
   return (
-    <div>
+    <div className="repo-container">
       <Navbar />
-      <Link to="/Repos"> <p> back </p></Link>
-        <div>
-          <h1>Name: {repoDetails.name}</h1>
+      <Link className="repo-back" to="/Repos">Back </Link>
+      <div className="main-wrapper">
+      <div className="repo-wrapper">
+          <h1> {repoDetails.name}</h1>
           <p>Description: {repoDetails.description}</p>
           <p>Language: {repoDetails.language}</p>
           <p>Created at: {repoDetails.created_at}</p>
@@ -27,6 +29,8 @@ function RepoDetailsPage() {
           {/* Display other properties as needed */}
         </div>
       
+      </div>
+       
     </div>
   );
 }
