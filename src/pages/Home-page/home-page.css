@@ -26,9 +26,21 @@ background-image: linear-gradient(43deg, #352F44 0%, #B9B4C7 46%, #FAF0E6 100%);
     justify-content: space-between;
     gap: 5rem;
 }
-.logo>h1{
+.banky-logo{
     font-weight: bolder;
     font-size:1.5rem;
+    text-decoration: none;
+    color:#011c47;
+    padding:1rem;
+    border-radius: 10px;
+}
+.banky-logo>span{
+ color:#f1f1f1;
+ font-weight: 900;
+ font-size: 2rem;
+}
+.banky-logo:hover{
+    border:1px solid #011c47;
 }
 .links-wrapper{
     display:flex;
@@ -130,4 +142,104 @@ background-image: linear-gradient(43deg, #352F44 0%, #B9B4C7 46%, #FAF0E6 100%);
 color:#FAF0E6;
 background-color:#352F44 ;
 border: 1px solid #FAF0E6;
+}
+.hamburga{
+    display: none;
+}
+.small-screen-nav{
+    display: none;
+}
+.into-p-2>span{
+    color:rgb(29, 3, 71);
+    font-weight: 900;
+    font-size: larger;
+
+}
+
+
+@media (max-width:760px) {
+    .Repos-link{
+      /* visibility: hidden; */
+      display: none;
+    }
+    .into-p{
+        font-size: 3rem;
+        font-weight: 800;
+        
+    }
+    
+    .links-wrapper{
+        
+        padding-right: 1rem;
+    }
+    .small-screen-nav{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: flex-start;
+        /* background-color: #4158D0; */
+        background-image: linear-gradient(43deg, #352F44 0%, #B9B4C7 46%, #FAF0E6 100%);
+        position:fixed;
+        width:10rem;
+        height:100vh;
+        right:0px;
+        top:0rem;
+
+    }
+    .small{
+        padding:0.5rem 2.5rem;
+        text-decoration: none;
+        border:1px solid #352F44;
+        border-radius:5px;
+        color:#352F44;
+        align-items: center;
+    }
+    .small:hover{
+        background-color: #352F44;
+        color:#FAF0E6;
+    }
+    .small-links{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding:1rem;
+        gap:1rem;
+        /* padding-right: 3rem; */
+    }
+    
+    /* .links{
+        gap:2rem;
+    } */
+    .intro{
+        margin-top:4rem;
+    }
+    .into-p-2{
+        font-size: 1.1rem;
+        color: #352F44;
+        /* margin-top: 1.5rem; */
+        padding:1rem;
+    }
+    .profile{
+      display: none;
+    }
+    .hamburga{
+        display: block;
+        padding: 0;
+    }
+}
+@media (max-width:420px){
+    .into-p-2{
+        font-size: 0.8rem;
+        color: #352F44;
+        /* margin-top: 1.5rem; */
+        /* padding:1rem; */
+    }
+    .intro{
+        margin-top:2rem;
+    }
+    .into-p{
+        font-size: 2rem;
+        font-weight: 800;
+        
+    }
 }

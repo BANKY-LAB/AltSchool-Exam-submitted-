@@ -69,3 +69,35 @@ gap:2rem;
     color:#352F44;
     font-size: 1.2rem;
 }
+
+@media (max-width:760px) {
+    .profile-card{
+        border:1px solid #FAF0E6;
+        gap:1.5rem;
+        padding:1rem;
+    }
+}
+@media (max-width:760px) {
+    .profile-card{
+        border:1px solid #FAF0E6;
+        gap:1.5rem;
+        padding:1rem;
+        display:flex;
+        flex-direction: column;
+    }
+   
+    .profile-body{
+        /* border:2px solid #c31a2e; */
+    display:flex;
+    flex-direction: column;
+    /* align-items:center; */
+    justify-content: center;
+    padding:2rem;
+    gap:1rem;
+    }
+    .profile-page{
+        margin-top: 2rem;
+        padding:0rem;
+        }
+}
+

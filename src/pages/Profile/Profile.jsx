@@ -22,23 +22,23 @@ function Profile (){
             </div>
             <div className="social-links">
                 <div className="social-links-1">
-                    <a href="https://github.com/BANKY-LAB">
+                    <a target='_blank' href="https://github.com/BANKY-LAB">
                     <img height="20px" src="src/assets/github.png" alt="github" />
                     </a>
                 </div>
 
                 <div className="social-links-1">
-                    <a href="http://wa.me/08104031440">
+                    <a target='_blank' href="http://wa.me/08104031440">
                     <img height="20px" src="src/assets/whatsapp.png" alt="Whatsapp" />
                     </a>
                 </div>
                 <div className="social-links-1">
-                    <a href="https://www.linkedin.com/in/olowoyeye-odunayo-a45856269/">
+                    <a target='_blank' href="https://www.linkedin.com/in/olowoyeye-odunayo-a45856269/">
                     <img height="20px" src="src/assets/linkedin.png" alt="Linked-in" />
                     </a>
                 </div>
                 <div className="social-links-1">
-                    <a href="https://twitter.com/Olowoyeyeoduna2">
+                    <a target='_blank' href="https://twitter.com/Olowoyeyeoduna2">
                     <img height="20px"  src="src/assets/x-twitter.svg" alt="X-app" />
                     </a>
                 </div>

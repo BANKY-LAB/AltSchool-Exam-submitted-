@@ -13,7 +13,7 @@
     padding:2rem;
 }
 .main-repos-div{
-    border:2px solid #B9B4C7;
+    /* border:2px solid #B9B4C7; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,5 +54,26 @@
 .view-btn:hover{
     border: 1px solid #080412;
 
+}
+
+
+@media (max-width:450px) {
+    .main-repos-div{
+ 
+        padding:1rem;
+
+    
+    }
+    .card{
+        width:15rem;
+    height: 18rem;
+    padding:1rem;
+    margin:0.5rem;
+    gap:0.5rem;
+    }
+    .repo-name{
+        margin:0.5rem;
+    
+    }
 }
 

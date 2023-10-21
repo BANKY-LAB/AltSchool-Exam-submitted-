@@ -26,7 +26,7 @@ function RepoDetailsPage() {
           <p>Language: {repoDetails.language}</p>
           <p>Created at: {repoDetails.created_at}</p>
           <p>Default branch: {repoDetails.default_branch}</p>
-          <Link className="repo-back-2" to={`${repoDetails.html_url}`}>Check on GitHub</Link>
+          <Link target={"_blank"} className="repo-back-2" to={`${repoDetails.html_url}`}>Check on GitHub</Link>
         </div>
       
       </div>

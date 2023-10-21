@@ -3,6 +3,7 @@ import Back from "../../components/back";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar";
+import Page404 from "../404/404";
 
 import "./repos.css";
 
@@ -17,7 +18,7 @@ function Repos() {
       .then((data) => setRepos(data))
       .catch((error) => {
         console.error("Error fetching data:", error);
-        setError("An error occurred while fetching data. Please try again.");
+        setError(Page404);
       });
 
     //   setLoading(true)
@@ -29,7 +30,7 @@ function Repos() {
       <Back />
       <div className="repos-flex">
         {Error ? (
-          <p>Error:{Error}</p>
+          <p>{Error}</p>
         ) : (
           <div className="main-repos-div">
             {repos.map((repo) => (
