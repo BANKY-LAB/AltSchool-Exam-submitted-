@@ -36,7 +36,7 @@ function Navbar() {
           <img
             onClick={hamburger}
             className="hamburga"
-            src="src/assets/icons8-menu-48.png"
+            src="public/assets/icons8-menu-48.png"
             alt=""
           />
         </div>
