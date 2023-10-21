@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Page404 from "../pages/404/404";
+import Profile from "../pages/Profile/Profile";
+import Question from "../pages/Question/Question";
+import Repos from "../pages/Repos/repos";
+
 
 function Navbar() {
   const [isNavVisible, setNavVisible] = useState(false);
