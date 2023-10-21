@@ -55,6 +55,29 @@
     border: 1px solid #080412;
 
 }
+.repos-back{
+    border: 1px solid #B9B4C7;
+    padding:0.5rem 1rem;
+    color:#FAF0E6;
+    border-radius: 0.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    width:5rem;
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.repos-back:hover{
+    background-color: #B9B4C7;
+    color:#352F44;
+    }
+    
+    
+    .repos-with-back{
+display:flex;
+flex-direction: column;
+    }
+    
+
 
 
 @media (max-width:450px) {

@@ -7,10 +7,7 @@ function Question() {
   return (
     <section className="Question">
         <div className="quest-back-wrapper">
-        <Link to="/"> <div className="question-back">
-         <img src="src/assets/back.svg" alt="back" />
-        </div>
-        </Link>
+        <Link to="/" className="Repos-link-question">Back</Link>
         </div>
       <div className="wrapper">
         <h2>QUESTION</h2>

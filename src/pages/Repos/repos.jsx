@@ -27,8 +27,10 @@ function Repos() {
   return (
     <main className="main-repos">
       <Navbar />
-      <Back />
+      <div className="repos-with-back">
+      <Link className="repos-back" to="/">Back</Link>
       <div className="repos-flex">
+      
         {Error ? (
           <p>{Error}</p>
         ) : (
@@ -46,6 +48,7 @@ function Repos() {
             ))}
           </div>
         )}
+      </div>
       </div>
     </main>
   );

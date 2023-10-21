@@ -9,7 +9,7 @@ function Profile (){
             
             <div className="profile-card">
                 <div className="image-wrapper">
-                   <img className="profile-img" height="200px"  src="src/assets/WhatsApp Image 2023-10-20 at 15.14.13.jpeg" alt="profile-pic" />
+                   <img className="profile-img" height="200px"  src="/src/assets/WhatsApp Image 2023-10-20 at 15.14.13.jpeg" alt="profile-pic" />
                 </div>
                 <div className="profile-body">
                     <p><span>Surname</span>: Olowoyeye</p>
