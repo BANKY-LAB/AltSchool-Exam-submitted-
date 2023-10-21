@@ -51,13 +51,13 @@ function Navbar() {
             <Link onClick={handleBack} to="/" className="small small-Repos-link">
               Home
             </Link>
-            <Link onClick={handleBack} to="Repos" className="small small-Repos-link">
+            <Link onClick={handleBack} to="/" className="small small-Repos-link">
               Repos
             </Link>
-            <Link onClick={handleBack} to="404" className="small small-Repos-link">
+            <Link onClick={handleBack} to="/" className="small small-Repos-link">
               Error 404
             </Link>
-            <Link onClick={handleBack} to="Profile" className="small small-profile">
+            <Link onClick={handleBack} to="/" className="small small-profile">
               Profile
             </Link>
           </div>
