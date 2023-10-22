@@ -124,6 +124,8 @@ background-image: linear-gradient(43deg, #352F44 0%, #B9B4C7 46%, #FAF0E6 100%);
     background-color: transparent;
     margin-top:3rem;
     font-size: 1.1rem;
+    color:#352F44;
+
 }
 .Question-btn{
     padding:14px 17px;
@@ -132,6 +134,7 @@ background-image: linear-gradient(43deg, #352F44 0%, #B9B4C7 46%, #FAF0E6 100%);
     background-color: transparent;
     margin-top:3rem;
     font-size: 1.1rem;
+    color:#352F44;
 }
 .Question-btn:hover{
     color:#FAF0E6;
@@ -150,14 +153,14 @@ border: 1px solid #FAF0E6;
     display: none;
 }
 .into-p-2>span{
-    color:rgb(29, 3, 71);
+    color:rgb(15, 2, 39);
     font-weight: 900;
     font-size: larger;
 
 }
 
 
-@media (max-width:760px) {
+@media (max-width:818px) {
     .Repos-link{
       /* visibility: hidden; */
       display: none;
@@ -171,19 +174,23 @@ border: 1px solid #FAF0E6;
     .links-wrapper{
         
         padding-right: 1rem;
+        transition:  0.4s ease-in-out;
+
     }
     .small-screen-nav{
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
-        justify-content: flex-start;
+        align-items:center;
+        justify-content: center;
         /* background-color: #4158D0; */
         background-image: linear-gradient(43deg, #352F44 0%, #B9B4C7 46%, #FAF0E6 100%);
-        position:fixed;
-        width:10rem;
+        position:absolute;
+        width:100%;
         height:100vh;
         right:0px;
         top:0rem;
+        /* padding: 5rem; */
+        transition:  0.4s ease-in-out;
 
     }
     .small{
@@ -193,12 +200,14 @@ border: 1px solid #FAF0E6;
         border-radius:5px;
         color:#352F44;
         align-items: center;
+        transition:  0.4s ease-in-out;
+
     }
     .small:hover{
         background-color: #352F44;
         color:#FAF0E6;
     }
-    .small-links{
+    .small-Repos-link{
         display:flex;
         justify-content: space-between;
         flex-direction: column;
@@ -224,7 +233,9 @@ border: 1px solid #FAF0E6;
     }
     .hamburga{
         display: block;
-        padding: 0;
+        position: absolute;
+        top:10px;
+        right:10px;
     }
 }
 @media (max-width:420px){
