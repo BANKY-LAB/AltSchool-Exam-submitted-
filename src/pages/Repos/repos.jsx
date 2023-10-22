@@ -1,5 +1,4 @@
 import React from "react";
-import Back from "../../components/back";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar";
@@ -18,7 +17,7 @@ function Repos() {
       .then((data) => setRepos(data))
       .catch((error) => {
         console.error("Error fetching data:", error);
-        setError(Page404);
+        setError("An error occurred while fetching data. Please try again.");
       });
 
     //   setLoading(true)

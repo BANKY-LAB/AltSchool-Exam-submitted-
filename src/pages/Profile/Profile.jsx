@@ -28,7 +28,7 @@ function Profile (){
                 </div>
 
                 <div className="social-links-1">
-                    <a target='_blank' href="http://wa.me/08104031440">
+                    <a target='_blank' href="https://wa.link/rh4zap">
                     <img height="20px" src="./images/whatsapp.png" alt="Whatsapp" />
                     </a>
                 </div>
