@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 
 function Navbar() {
-  const [isNavVisible, setNavVisible] = useState(false);
+  const [isNavVisible, setNavVisible] = useState(true);
 
   const hamburger = () => {
     setNavVisible(!isNavVisible);
   };
 
   const handleBack =()=>{
-    setNavVisible(flase)
+    setNavVisible(false)
   }
 
   return (
@@ -43,27 +43,6 @@ function Navbar() {
           />
         </div>
       </div>
-      {/* {isNavVisible ? (
-        <div className="small-screen-nav">
-          <div className="small-links">
-            <Link onClick={handleBack} to="/" className="small">
-              Back
-            </Link>
-            <Link onClick={handleBack} to="/" className="small small-Repos-link">
-              Home
-            </Link>
-            <Link onClick={handleBack} to="/" className="small small-Repos-link">
-              Repos
-            </Link>
-            <Link onClick={handleBack} to="/" className="small small-Repos-link">
-              Error 404
-            </Link>
-            <Link onClick={handleBack} to="/" className="small small-profile">
-              Profile
-            </Link>
-          </div>
-        </div>
-      ) : null} */}
     </nav>
   );
 }
