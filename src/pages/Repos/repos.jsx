@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar";
-import Page404 from "../404/404";
 
 import "./repos.css";
 
